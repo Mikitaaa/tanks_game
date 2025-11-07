@@ -1,5 +1,4 @@
-#ifndef FIELD_H
-#define FIELD_H
+#pragma once
 
 class Field {
 private:
@@ -9,9 +8,7 @@ private:
 public:
     Field(int w, int h);         
 
-    void printField() const;  
+    void createField();  
     int getWidth() const;       
     int getHeight() const;       
 };
-
-#endif
