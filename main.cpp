@@ -9,7 +9,7 @@ int main() {
     cin >> w >> h;
 
     Field myField(w, h);
-    myField.createField();
+    myField.printField();
 
     cout << "Field width: " << myField.getWidth() << endl;
     cout << "Field height: " << myField.getHeight() << endl;
