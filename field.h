@@ -5,13 +5,13 @@ class Field {
 private:
     int width;
     int height;
-    std::vector<std::vector<int>> grid;
+    std::vector<std::vector<char>> grid;
 
 
 public:
     Field(int w, int h);         
 
-    int& at(int width, int height);
+    char& at(int width, int height);
     int getWidth() const;       
     int getHeight() const;    
     void printField();  
